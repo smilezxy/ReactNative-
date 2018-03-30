@@ -68,6 +68,7 @@ if (this._reactInternalInstance){
 4. 路由简单的DEMO：`https://github.com/aksonov/react-native-router-flux/blob/v3/docs/MINI_TUTORIAL.md`
 
 ## 路由的一些基本使用方法
+```
 import  {Router,Stack,Scene} from  'react-native-router-flux'
  render() {
         return (
@@ -84,11 +85,12 @@ import  {Router,Stack,Scene} from  'react-native-router-flux'
         )
 
     }
+```
 
 
 //点击某某跳转
-import { Actions } from 'react-native-router-flux'
- Actions.movielist()  （movielist是scence里面的key）
+import { Actions } from 'react-native-router-flux'  <br/>
+Actions.movielist()  （movielist是scence里面的key）
 
 
 ## 配置首页的轮播图
